@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <style>
+        html{height: 100%;}
+        body
+        {
+            height: 100%;
+            margin: 0;
+            background-image: url("assets/backdrop.jpg");
+            background-size: cover;
+        }
+
+        main
+        {
+            display: block;
+            position: relative;
+            width: 100%;
+            height: 100%;
+            color: #EEE;
+            background-color: hsla(210,3%,12%,0.85);
+        }
+
+        .center
+        {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%,0%);
+        }
+
+        #myFace
+        {
+            width: 12vw;
+            height: 12vw;
+            background-image: url("assets/chillmask.jpg");
+            background-size: cover;
+            border: 0.5vw solid hsl(280,100%,60%);
+            border-radius: 6.5vw;
+        }
+    </style>
+    <title></title>
+  </head>
+  <body>
+    <main>
+        <img src="assets/tribal1.svg" class="center" />
+        <div id="myFace" class="center"></div>
+    </main>
+  </body>
+</html>
